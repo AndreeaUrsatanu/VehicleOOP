@@ -1,5 +1,3 @@
-package Curs04;
-
 public class Vehicle {
 
 	private final static String producedBy = "Renault";
@@ -160,23 +158,7 @@ public class Vehicle {
 
 		System.out.print(sb.toString());
 	}
-
-//	@Override
-//	public String toString() {
-//		StringBuilder sb = new StringBuilder();
-//		
-//		sb.append("This car has been produced by: " + Vehicle.producedBy + "\n");
-//		sb.append("Production year: " + this.productionYear + "\n"); 
-//		sb.append("Vin: " + this.vin + "\n"); 
-//		sb.append("Plate number: " + this.plateNumber + "\n"); 
-//		sb.append("Kilometers: " + this.kilometers + "\n"); 
-//		sb.append("Last sold on year: " + this.lastSoldOnYear + "\n"); 
-//		sb.append("PositionX: " + this.positionX + "\n"); 
-//		sb.append("PositionY: " + this.positionY + "\n"); 
-//		
-//		return sb.toString();
-//	}
-
+	
 	public String display() {
 		StringBuilder sb = new StringBuilder();
 
